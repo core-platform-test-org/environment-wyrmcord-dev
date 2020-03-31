@@ -1,0 +1,11 @@
+adminUser:
+  password: vault:wyrmcord/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:wyrmcord/pipelineUser:token
+  username: cloudbees-ci-cd-play[bot]
+prow:
+  hmacToken: vault:wyrmcord/prow:hmacToken
+segmentWriteKey: vault:wyrmcord:segmentWriteKey
